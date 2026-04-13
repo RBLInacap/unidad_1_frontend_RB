@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - SportClub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light d-flex align-items-center justify-content-center" style="height: 100vh;">
+    <main class="container">
+        <section class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card p-4">
+                    <div class="text-center mb-4">
+                        <img src="logoSportClub.png" alt="Logo" height="60" class="mb-3">
+                        <h2 class="text-corporate fw-bold">Acceso Socios</h2>
+                    </div>
+                    <form action="dashboard-usuario.html">
+                        <div class="mb-3">
+                            <label class="form-label">Correo Institucional</label>
+                            <input type="email" class="form-control" placeholder="nombre@inacapmail.cl" required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" required>
+                        </div>
+                        <button type="submit" class="btn btn-corporate w-100 mb-3">Ingresar</button>
+                    </form>
+                    <div class="d-flex justify-content-between mb-4 border-top pt-3">
+                        <a href="dashboard-coach.html" class="btn btn-sm btn-outline-success">Demo Coach</a>
+                        <a href="dashboard-admin.html" class="btn btn-sm btn-outline-danger">Demo Admin</a>
+                    </div>
+                    <div class="text-center small">
+                        <a href="recuperacion.html" class="text-corporate d-block mb-1">Recuperar clave</a>
+                        <a href="registro.html" class="text-corporate fw-bold">Crear cuenta nueva</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
